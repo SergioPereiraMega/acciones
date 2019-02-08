@@ -1,0 +1,24 @@
+fields:
+    name:
+        label: 'Nombre Colaborador'
+        span: auto
+        type: text
+    order:
+        label: 'Orden de la foto'
+        span: auto
+        type: text
+    colaborador:
+        label: 'Foto Colaborador'
+        mode: image
+        imageWidth: '200'
+        imageHeight: '200'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    publish:
+        label: 'Tick para publicar'
+        span: auto
+        type: checkbox

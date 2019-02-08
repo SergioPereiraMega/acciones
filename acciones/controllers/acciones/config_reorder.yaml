@@ -1,0 +1,4 @@
+title: Acciones
+modelClass: Lacasita\Acciones\Models\Accion
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,15 @@
+columns:
+    name:
+        label: 'Nombre Colaborador'
+        type: text
+        searchable: true
+        sortable: true
+    order:
+        label: 'Orden '
+        type: text
+        searchable: true
+        sortable: true
+    publish:
+        label: Publicar
+        type: switch
+        searchable: true

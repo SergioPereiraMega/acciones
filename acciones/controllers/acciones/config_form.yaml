@@ -1,0 +1,10 @@
+name: Acciones
+form: $/lacasita/acciones/models/accion/fields.yaml
+modelClass: Lacasita\Acciones\Models\Accion
+defaultRedirect: lacasita/acciones/acciones
+create:
+    redirect: 'lacasita/acciones/acciones/update/:id'
+    redirectClose: lacasita/acciones/acciones
+update:
+    redirect: lacasita/acciones/acciones
+    redirectClose: lacasita/acciones/acciones

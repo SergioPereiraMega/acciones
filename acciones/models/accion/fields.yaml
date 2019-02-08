@@ -1,0 +1,40 @@
+fields:
+    name:
+        label: 'Nombre de la Accion'
+        span: auto
+        type: text
+    date:
+        label: 'Fecha y hora'
+        mode: datetime
+        span: auto
+        type: datepicker
+    description:
+        label: 'Descripcion de la Accion'
+        size: large
+        span: auto
+        type: richeditor
+    adress:
+        label: Direccion
+        span: auto
+        placeholder: ''
+        default: 'Matheu 1972, Partido de Tigre Tel, 011 4731-8043'
+        type: text
+    order:
+        label: 'Ordenacion de Accion 1 2 3 4...n'
+        span: auto
+        type: text
+    publish:
+        label: 'Tick para Publicar'
+        span: auto
+        type: checkbox
+    foto:
+        label: 'Foto de la Accion'
+        mode: image
+        imageWidth: '220'
+        imageHeight: '150'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload

@@ -1,0 +1,5 @@
+title: Colaboradores
+nameFrom: title
+modelClass: Lacasita\Acciones\Models\Colaborador
+toolbar:
+    buttons: reorder_toolbar

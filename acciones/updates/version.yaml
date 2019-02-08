@@ -1,0 +1,11 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table lacasita_acciones_acciones'
+    - builder_table_create_lacasita_acciones_acciones.php
+1.0.3:
+    - 'Updated table lacasita_acciones_acciones'
+    - builder_table_update_lacasita_acciones_acciones.php
+1.0.4:
+    - 'Created table lacasita_acciones_colaboradores'
+    - builder_table_create_lacasita_acciones_colaboradores.php

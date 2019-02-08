@@ -1,0 +1,10 @@
+name: Colaboradores
+form: $/lacasita/acciones/models/colaborador/fields.yaml
+modelClass: Lacasita\Acciones\Models\Colaborador
+defaultRedirect: lacasita/acciones/colaboradores
+create:
+    redirect: 'lacasita/acciones/colaboradores/update/:id'
+    redirectClose: lacasita/acciones/colaboradores
+update:
+    redirect: lacasita/acciones/colaboradores
+    redirectClose: lacasita/acciones/colaboradores

@@ -1,0 +1,16 @@
+plugin:
+    name: 'lacasita.acciones::lang.plugin.name'
+    description: 'lacasita.acciones::lang.plugin.description'
+    author: lacasita
+    icon: oc-icon-child
+    homepage: ''
+navigation:
+    Acciones:
+        label: Acciones
+        url: lacasita/acciones/acciones
+        icon: icon-child
+        sideMenu:
+            side-menu-item:
+                label: Colaboradores
+                url: lacasita/acciones/colaboradores
+                icon: icon-user-plus

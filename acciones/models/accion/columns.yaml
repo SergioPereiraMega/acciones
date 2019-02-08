@@ -1,0 +1,25 @@
+columns:
+    order:
+        label: 'Orden'
+        type: number
+        searchable: true
+        sortable: true
+    publish:
+        label: publish
+        type: switch
+    name:
+        label: 'Nombre Accion'
+        type: text
+        searchable: true
+        sortable: true
+    description:
+        label: Descripcion
+        type: text
+    date:
+        label: 'Fecha '
+        type: date
+        searchable: true
+        sortable: true
+    adress:
+        label: Direccion
+        type: text
